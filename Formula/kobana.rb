@@ -1,28 +1,28 @@
 class Kobana < Formula
   desc "CLI for the Kobana financial API (v1 and v2)"
   homepage "https://github.com/universokobana/kobana-cli"
-  version "0.9.0"
+  version "0.10.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/universokobana/kobana-cli/releases/download/v0.9.0/kobana-darwin-arm64"
-      sha256 "bcd65db5d4e52db21b3c3c05ac80be9a79a948ecc4333aa12b2e09fca84c723f"
+      url "https://github.com/universokobana/kobana-cli/releases/download/v0.10.0/kobana-darwin-arm64"
+      sha256 "e921c33c38e97d242cfa09f1dcc63e5825e0b97b654878fe3677e7a950296597"
     end
     on_intel do
-      url "https://github.com/universokobana/kobana-cli/releases/download/v0.9.0/kobana-darwin-amd64"
-      sha256 "feac7bc7006db51842c19e8b2844c5f008591d5115bb5add6f90e91efa1c0328"
+      url "https://github.com/universokobana/kobana-cli/releases/download/v0.10.0/kobana-darwin-amd64"
+      sha256 "01b1db0f529e72fc734ea684f16f9d045d386e055637d45cdcacf9637d797165"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/universokobana/kobana-cli/releases/download/v0.9.0/kobana-linux-arm64"
-      sha256 "048a573c29a680f6e7730e1bf4499c14925b9967eab48c2e70fececb05a42854"
+      url "https://github.com/universokobana/kobana-cli/releases/download/v0.10.0/kobana-linux-arm64"
+      sha256 "1c853e5a9467959ca44dbd503018348e52c9544f8e4fd7c58cb3232a4df0bb93"
     end
     on_intel do
-      url "https://github.com/universokobana/kobana-cli/releases/download/v0.9.0/kobana-linux-amd64"
-      sha256 "af8e01740ee3e29a7f9396643368af80b40b41fa2950fd65417968aeb934127b"
+      url "https://github.com/universokobana/kobana-cli/releases/download/v0.10.0/kobana-linux-amd64"
+      sha256 "71c6b69bc5c6a5e13999c977a19f4f04d80121ff4354604cdb57af1132d75bce"
     end
   end
 
